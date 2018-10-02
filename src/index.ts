@@ -22,11 +22,11 @@ const AUTH_TYPE = require('../bundle/appsync_lib').AUTH_TYPE;
 es6Promise.polyfill();
 
 const client = new AWSAppSyncClient({
-    url: 'https://gtmreadhpneddmkwhw6pp2aayu.appsync-api.us-east-1.amazonaws.com/graphql',
+    url: 'https://xxxxxxxxxxxxxxxxxxx.appsync-api.us-east-1.amazonaws.com/graphql',
     region: 'us-east-1', // or whatever your region is
     auth: {
         type: AUTH_TYPE.API_KEY,
-        apiKey: () => 'da2-psjriuztibcbdl4wjnzqkvs2wa'
+        apiKey: () => 'da2-xxxxxxxxxxxxxxxxxxxxxxxx'
     },
     disableOffline: true
 });
@@ -34,7 +34,7 @@ const client = new AWSAppSyncClient({
 client.hydrated().then(function (client: any) {
     let req = {
         filter: {
-            name: 'Eikon5AutoSave_Workspace 1.elw'
+            name: 'Save_Workspace 1.elw'
         }
     };
     client.query({
