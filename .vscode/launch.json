@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Workspace Service",
+        "program": "${workspaceFolder}/build/index.js",
+        "preLaunchTask": null,
+        "outFiles": [
+            "${workspaceFolder}/build/**/*.js"
+        ]
+    }]
+}
