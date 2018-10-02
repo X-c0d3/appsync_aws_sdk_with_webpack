@@ -1,0 +1,9 @@
+npm i babel-polyfill  babel-core  babel-loader  babel-preset-env  babel-plugin-transform-async-to-generator  babel-plugin-transform-object-rest-spread --save
+
+npm i typescript ws ts-node nodemon isomorphic-unfetch graphql-tag graphql es6-promise --save
+
+npm i aws-appsync @types/ws @types/node @types/graphql @babel/preset-env @babel/core --save
+
+npm i ts-loader webpack webpack-cli --save
+
+npm i apollo-cache-inmemory apollo-client apollo-link-http --save
